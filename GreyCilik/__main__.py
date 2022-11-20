@@ -82,24 +82,24 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*Hello {} !*
-✪ I'm an anime-theme management bot [✨](https://telegra.ph/file/a807460d64ac73c5dc83a.jpg)
+*ᴀssᴀʟᴀᴍᴜ'ᴀʟᴀɪᴋᴜᴍ  {} !*
+✪ ʜᴀʟᴏ ɢᴡ Sᴘᴇᴄᴛʀᴀs RᴏʙᴏT. [🏴‍☠️](https://telegra.ph/file/bd16518a5487afe6d89fe.jpg)
 ────────────────────────
 × *Uptime:* `{}`
 × `{}` *users, across* `{}` *chats.*
 ────────────────────────
-✪ Hit /help to see my available commands.
+✪ ʜɪᴛ /help ᴛᴏ sᴇᴇ ᴍʏ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs.
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➗ Add Me To Your Group ➗", url=f"t.me/{bu}?startgroup=new"),
+            text="➗ 𝗔𝗗𝗗 𝗚𝗪 𝗗𝗜 𝗚𝗥𝗨𝗣 𝗟𝗨 ➗", url=f"t.me/{bu}?startgroup=new"),
     ],
     [
-        InlineKeyboardButton(text="Get Help ❓", callback_data="help_back"),
+        InlineKeyboardButton(text="𝗣𝗘𝗥𝗟𝗨 𝗕𝗔𝗡𝗧𝗨𝗔𝗡 ❓", callback_data="help_back"),
         InlineKeyboardButton(
-            text="Support 💌", url=f"t.me/{SUPPORT_CHAT}"
+            text="𝗦𝗨𝗣𝗣𝗢𝗥𝗧 💌", url=f"t.me/{SUPPORT_CHAT}"
         ),
     ],
     [
