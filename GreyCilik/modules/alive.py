@@ -9,13 +9,13 @@ from GreyCilik.events import register
 from GreyCilik import telethn as tbot
 from GreyCilik import BOT_USERNAME as bu
 
-PHOTO = "https://telegra.ph/file/760e7c0afaf6ba3df8ce7.jpg"
+PHOTO = "https://telegra.ph/file/bd16518a5487afe6d89fe.jpg"
 
 @register(pattern=("/alive"))
 async def awake(event):
   GREY = f"**Hi [{event.sender.first_name}](tg://user?id={event.sender.id}), I'm Cilik.** \n\n"
   GREY += "✪ **I'm Working Properly** \n\n"
-  GREY += f"✪ **My Master : [Grey](https://t.me/greyyvbss)** \n\n"
+  GREY += f"✪ **My Master : [RAKA](https://t.me/Sang_Raka)** \n\n"
   GREY += f"✪ **Library Version :** `{telever}` \n\n"
   GREY += f"✪ **Telethon Version :** `{tlhver}` \n\n"
   GREY += f"✪ **Pyrogram Version :** `{pyrover}` \n\n"
