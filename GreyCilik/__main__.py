@@ -83,7 +83,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *ᴀssᴀʟᴀᴍᴜ'ᴀʟᴀɪᴋᴜᴍ  {} !*
-✪ ʜᴀʟᴏ ɢᴡ Sᴘᴇᴄᴛʀᴀs RᴏʙᴏT. [🏴‍☠️](https://telegra.ph/file/bd16518a5487afe6d89fe.jpg)
+✪ ʜᴀʟᴏ ɢᴡ Sᴘᴇᴄᴛʀᴀs RᴏʙᴏT. [🏴‍☠️](https://telegra.ph/file/b11e65a69e4856ea6a762.jpg)
 ────────────────────────
 × *Uptime:* `{}`
 × `{}` *users, across* `{}` *chats.*
@@ -111,7 +111,7 @@ buttons = [
 HELP_STRINGS = """
 Click on the button bellow to get description about specifics command."""
 
-CILIK_IMG = "https://telegra.ph/file/a807460d64ac73c5dc83a.jpg"
+CILIK_IMG = "https://telegra.ph/file/b11e65a69e4856ea6a762.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project by contacting @greyyvbss \
